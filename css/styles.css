@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+@font-face {
+	font-family: 'SEGOEUI';
+	src: url('../fonts/SEGOEUI.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/SEGOEUI.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/SEGOEUI.woff') format('woff'), /* Modern Browsers */ url('../fonts/SEGOEUI.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/SEGOEUI.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	font-family:"SEGOEUI";
+	font-size: 15px; line-height:21px;
+	font-weight: normal;
+	margin:0px;
+	padding:0px; color:#4d4d4f;
+	/*background:#FFF url(../images/pattern1.jpg) top left repeat;*/
+}
+html, body {height: 100%;}
+img{border:none;}
+ul, li, input{margin:0px; padding:0px; list-style:none;}
+h1, h2, h3, h4, h5, h6, hr{margin:0px; padding:0px;}
+hr{background:#CCC; height:1px; border : 0px; margin:30px 0px;}
+a{color:#2e2d2c; text-decoration:none;}
+.clear{clear:both;}
+.left{float:left;}
+.right{float:right}
+
+h1, h2, h3 {font: normal 24px 'Francois One', sans-serif; margin:5px 0px; color:#bd1d2c;}
+h1 {font-size: 32px}
+h3{font-size:18px;}
+h4{font-size:16px; margin:15px 0px 15px;}
+h5{font-size:14px; margin:0px;}
+h6{font-size:10px; margin:0px;}
+p{margin-bottom:15px;}
+*:before, *:after {box-sizing: border-box;}
+.wrapper {width:100%;}
+.content-wrapper {width:1000px; margin:20px auto;}
+.content-wrapper .left-side {width:635px; float:left; margin-right:40px}
+.content-wrapper .right-side {width:325px; float:left}
+
+.row1 {height:25px; padding:10px 0px; background:#bd1d2c;}
+.row1-wrapper, .row2-wrapper{width:1000px; margin:0px auto;}
+.top-add {color:#FFF}
+.top-add  span {float:left; margin-right:15px; padding-left:28px}
+.top-add  span.add {background:url(../images/address.png) left 0px no-repeat}
+.top-add span.phone {background:url(../images/phone.png) left center no-repeat}
+.top-add span.email {background:url(../images/email.png) left 0px no-repeat}
+
+.social-icons {float:right;}
+ul.social-top {}
+ul.social-top li {float:left; width:26px; height:26px; margin-right:5px;}
+ul.social-top li a {display:block; background-image:url(../images/top-social-icons.png); background-repeat:no-repeat; width:26px; height:26px; } 
+ul.social-top li a.facebook {background-position:0px 0px;}
+ul.social-top li a.facebook:hover {background-position:0px -26px; text-decoration:none;}
+ul.social-top li a.twitter {background-position:-30px 0px;}
+ul.social-top li a.twitter:hover {background-position:-30px -26px; text-decoration:none;}
+ul.social-top li a.linkedin {background-position:-61px 0px;}
+ul.social-top li a.linkedin:hover {background-position:-61px -26px; text-decoration:none;}
+ul.social-top li a.googleplus {background-position:-92px 0px;}
+ul.social-top li a.googleplus:hover {background-position:-92px -26px; text-decoration:none;}
+ul.social-top li a.youtube {background-position:-123px 0px;}
+ul.social-top li a.youtube:hover {background-position:-123px -26px; text-decoration:none;}
+
+.row2{padding:20px 0px;}
+.logo{width: 345px; height: 63px;}
+
+.logo a{display:block; width: 265px; height: 139px;}
+
+/************************************************
+Navigation CSS Starts Here 
+*/
+.navigation {float:right; margin:20px 0px 0px 0px;}
+.nav > li {display: inline-block; font-size:18px; }
+.nav li a {color: #3a3a3a; padding:0px 15px;}
+.nav li a:hover {color: #bd1d2c;}
+.nav li a.active {color: #bd1d2c; font-weight:bold;}
+.nav > li + li:before {color: #3a3a3a;  content: "/ "; padding: 0 5px;}
+.nav > .active {color: #999;}
+
+.slider {height:400px;}
+.slider img {width:100%;}
+
+
+.third-row{overflow: hidden; margin-bottom:30px}
+
+div.highlight {text-align:center; background:#bd1d2c; overflow:hidden; position:relative; padding:30px; width:940px; margin:-50px auto 0px; color:#FFF;}
+div.highlight li{float:left; width:288px;font-size:16px}
+div.highlight li:nth-child(2){margin:0px 37px;}
+div.highlight h2 {color:#fff;}
+div.highlight a {color:#bd1d2c; background:#FFF; padding:8px 35px; font-weight:bold}
+div.highlight a:hover {color:#fff; background:#3a3a3a;}
+
+a.more {color:#FFF; background:#3a3a3a; padding:8px 35px; font-weight:bold; float:left; margin-top:10px}
+a.more:hover {color:#fff; background:#bd1d2c;}
+
+.welcome{font-size:16px; margin-bottom:20px}
+.welcome p:nth-child(3){margin:0px;}
+.font-big { font-size:18px; line-height:26px}
+.expertise {margin-bottom:20px}
+.expertise ul{margin-left:20px}
+.expertise ul li {list-style:disc; font-size:18px; margin-bottom:10px}
+
+.video-gallery ul li{border:2px solid #CCC; height:200px}
+
+/****************************** 
+InnerPage CSS Starts Here 
+*/
+.inner-banner { background:url(../images/innerpage-banner.jpg) top left repeat-x; height:100px;}
+.img-left {float:left; margin:0px 20px 10px 0px;}
+.img-lt {float:left; margin:0px 20px 5px 0px;}
+.img-rt {float:right; margin:0px 0px 5px 20px;}
+ul.services {margin-bottom:20px;}
+ul.services li{ list-style:disc; margin:0px 0px 5px 20px;} 
+/****************************** 
+FOOTER CSS Starts Here 
+*/
+.footer{width:100%; color:#FFF; background:#d6d6d6; overflow:hidden; font-size:14px; margin:0px;}
+.footer-wrapper{width:1000px; margin:20px auto 0px; overflow:hidden; padding:10px 0px 20px; text-align:center; color:#4D4D4F}
+.footer a { color:#4D4D4F}
+.footer a:hover {text-decoration:underline;}
+
+
+ul.social-footer {width:205px; margin:20px auto;}
+ul.social-footer li {float:left; width:36px; height:36px; margin-right:5px;}
+ul.social-footer li a {display:block; background-image:url(../images/footer-social-icons.png); background-repeat:no-repeat; width:36px; height:36px; } 
+ul.social-footer li a.facebook {background-position:0px 0px;}
+ul.social-footer li a.facebook:hover {background-position:0px -36px; text-decoration:none;}
+ul.social-footer li a.twitter {background-position:-43px 0px;}
+ul.social-footer li a.twitter:hover {background-position:-43px -36px; text-decoration:none;}
+ul.social-footer li a.linkedin {background-position:-87px 0px;}
+ul.social-footer li a.linkedin:hover {background-position:-87px -36px; text-decoration:none;}
+ul.social-footer li a.googleplus {background-position:-130px 0px;}
+ul.social-footer li a.googleplus:hover {background-position:-130px -36px; text-decoration:none;}
+ul.social-footer li a.youtube {background-position:-175px 0px;}
+ul.social-footer li a.youtube:hover {background-position:-175px -36px; text-decoration:none;}
